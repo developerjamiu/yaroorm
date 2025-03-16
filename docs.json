@@ -6,27 +6,42 @@
   "theme": "#1c2834",
   "favicon": "/assets/logo.png",
   "googleAnalytics": "",
+  "tabs": [
+    {
+      "id": "root",
+      "title": "Documentation",
+      "href": "/"
+    }
+  ],
   "sidebar": [
-    ["Overview", "/"],
-    ["Getting Started", "/getting-started"],
-    [
-      "The Basics",
-      [
-        ["Routing", "/core/routing"],
-        ["HTTP Middleware", "/core/middleware"],
-        ["Controllers", "/core/controllers"],
-        ["Request", "/core/request"],
-        ["Response", "/core/response"],
-        ["Validation", "/core/validation"]
+    {
+      "group": "Getting Started",
+      "tab": "root",
+      "pages": [
+        { "title": "Overview", "href": "/" },
+        { "title": "Getting Started", "href": "/orm/quickstart" }
       ]
-    ],
-    [
-      "ORM",
-      [
-        ["Quickstart", "/orm/quickstart"],
-        ["Relationships", "/orm/relationships"],
-        ["Migrations", "/orm/migrations"]
+    },
+    {
+      "group": "Core",
+      "tab": "root",
+      "pages": [
+        { "title": "Routing", "href": "/core/routing" },
+        { "title": "HTTP Middleware", "href": "/core/middleware" },
+        { "title": "Controllers", "href": "/core/controllers" },
+        { "title": "Request", "href": "/core/request" },
+        { "title": "Response", "href": "/core/response" },
+        { "title": "Validation", "href": "/core/validation" }
       ]
-    ]
+    },
+    {
+      "group": "ORM",
+      "tab": "root",
+      "pages": [
+        { "title": "Quickstart", "href": "/orm/quickstart" },
+        { "title": "Relationships", "href": "/orm/relationships" },
+        { "title": "Migrations", "href": "/orm/migrations" }
+      ]
+    }
   ]
 }
