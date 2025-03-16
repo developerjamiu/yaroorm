@@ -14,24 +14,24 @@
         { "title": "Getting Started", "href": "/orm/quickstart" }
       ]
     },
-    [
-      "The Basics",
-      [
-        ["Routing", "/core/routing"],
-        ["HTTP Middleware", "/core/middleware"],
-        ["Controllers", "/core/controllers"],
-        ["Request", "/core/request"],
-        ["Response", "/core/response"],
-        ["Validation", "/core/validation"]
+    {
+      "group": "Core",
+      "pages": [
+        { "title": "Routing", "href": "/core/routing" },
+        { "title": "HTTP Middleware", "href": "/core/middleware" },
+        { "title": "Controllers", "href": "/core/controllers" },
+        { "title": "Request", "href": "/core/request" },
+        { "title": "Response", "href": "/core/response" },
+        { "title": "Validation", "href": "/core/validation" }
       ]
-    ],
-    [
-      "ORM",
-      [
-        ["Quickstart", "/orm/quickstart"],
-        ["Relationships", "/orm/relationships"],
-        ["Migrations", "/orm/migrations"]
+    },
+    {
+      "group": "ORM",
+      "pages": [
+        { "title": "Quickstart", "href": "/orm/quickstart" },
+        { "title": "Relationships", "href": "/orm/relationships" },
+        { "title": "Migrations", "href": "/orm/migrations" }
       ]
-    ]
+    }
   ]
 }
