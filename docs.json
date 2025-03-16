@@ -7,8 +7,13 @@
   "favicon": "/assets/logo.png",
   "googleAnalytics": "",
   "sidebar": [
-    ["Overview", "/"],
-    ["Getting Started", "/getting-started"],
+    {
+      "group": "Getting Started",
+      "pages": [
+        { "title": "Overview", "href": "/" },
+        { "title": "Getting Started", "href": "/orm/quickstart" }
+      ]
+    },
     [
       "The Basics",
       [
